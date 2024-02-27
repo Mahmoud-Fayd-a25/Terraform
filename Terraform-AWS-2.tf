@@ -110,6 +110,6 @@ resource "aws_launch_configuration" "web_lc" {
                           yum install -y httpd
                           systemctl start httpd
                           systemctl enable httpd
-                          echo "Hello, World!" > /var/www/html/index.html
+                          echo "Hello, All done!!" > /var/www/html/index.html
                           EOF
 }
